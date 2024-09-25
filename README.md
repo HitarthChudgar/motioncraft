@@ -1,8 +1,13 @@
-# React + Vite
+# MotionCraft: Animation & Experience Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MotionCraft** is an experimental UI experiments website where I explore and experiment with a variety of UI animations and engineering components. This project is a series of interactive and innovative UI designs, created using **Framer**, **React**, and **Tailwind CSS**. Each experiment focuses on pushing the boundaries of user experience through motion and interaction design.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+MotionCraft is a collection of UI experiments, ranging from micro-interactions to complex animations, all aimed at enhancing the user experience. The goal is to explore creative solutions for real-world UI challenges and prototype engaging and responsive interfaces.
+
+### Technologies Used:
+
+- **Framer**: For rapid prototyping and creating smooth, interactive animations.
+- **React**: The core framework for building reusable UI components.
+- **Tailwind CSS**: For styling with utility-first CSS, ensuring responsive design.
