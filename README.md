@@ -1,3 +1,5 @@
+![Alt text](motioncraft_logo.png)
+
 # MotionCraft: Animation & Experience Lab
 
 **MotionCraft** is an experimental UI experiments website where I explore and experiment with a variety of UI animations and engineering components. This project is a series of interactive and innovative UI designs, created using **Framer**, **React**, and **Tailwind CSS**. Each experiment focuses on pushing the boundaries of user experience through motion and interaction design.
