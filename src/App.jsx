@@ -1,5 +1,11 @@
+import PageTemplate from "./components/PageTemplate";
+
 const App = () => {
-  return <div className="text-5xl">App</div>;
+  return (
+    <div>
+      <PageTemplate />
+    </div>
+  );
 };
 
 export default App;
