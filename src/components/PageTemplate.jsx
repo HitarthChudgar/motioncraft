@@ -1,9 +1,8 @@
 import Header from "./Header";
-import divider from "../assets/divider.svg";
 
 const PageTemplate = () => {
   return (
-    <div className="bg-zinc-900 min-h-screen w-full px-32 py-12 flex flex-col justify-normal items-center gap-10">
+    <div className="bg-zinc-900 min-h-screen w-full px-4 py-5 sm:px-4 sm:py-5 lg:px-32 lg:py-12 flex flex-col justify-normal items-center gap-10">
       <Header></Header>
       <svg
         className="w-full"
