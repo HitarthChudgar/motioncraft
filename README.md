@@ -1,4 +1,4 @@
-# <img src="motioncraft_logo.png" alt="Logo" width="48" height="40" /> MotionCraft: Experimental UI Website
+# <img src="./src/assets/motioncraft_logo.png" alt="Logo" width="48" height="40" /> MotionCraft: Experimental UI Website
 
 **MotionCraft** is an experimental UI experiments website where I explore and experiment with a variety of UI animations and engineering components. This project is a series of interactive and innovative UI designs, created using **Framer**, **React**, and **Tailwind CSS**. Each experiment focuses on pushing the boundaries of user experience through motion and interaction design.
 
