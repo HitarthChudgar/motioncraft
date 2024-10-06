@@ -2,7 +2,8 @@ import Header from "./Header";
 
 const PageTemplate = () => {
   return (
-    <div className="bg-zinc-900 min-h-screen w-full px-4 py-5 sm:px-4 sm:py-5 lg:px-32 lg:py-12 flex flex-col justify-normal items-center gap-10">
+    <div className="relative min-h-screen w-full px-4 py-5 sm:px-4 sm:py-5 lg:px-14 xl:px-36 2xl:px-96 lg:py-12 flex flex-col justify-normal items-center gap-10 bg-zinc-900">
+      <div className="absolute inset-0 bg-[url('/src/assets/paper_texture.jpg')] bg-cover bg-center mix-blend-multiply opacity-80 z-999"></div>
       <Header></Header>
       <svg
         className="w-full"
