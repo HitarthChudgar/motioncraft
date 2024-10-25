@@ -13,7 +13,7 @@ export default {
         },
       },
       animation: {
-        shimmer: "shimmer 2s infinite", // your custom shimmer animation
+        shimmer: "shimmer 4s infinite", // your custom shimmer animation
       },
     },
   },
