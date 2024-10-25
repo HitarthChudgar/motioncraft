@@ -10,7 +10,7 @@ const CommandBar = () => {
   };
 
   return (
-    <div className="fixed bottom-5 left-1/2 transform -translate-x-1/2 sm:w-auto sm:h-11 px-4 py-3 gap-4 z-10 border-[0.5px] border-zinc-50/5 bg-zinc-800/10 bg-opacity-75 backdrop-blur-xl rounded-full shadow-lg flex items-center">
+    <div className="fixed bottom-5 left-1/2 transform -translate-x-1/2 sm:w-auto sm:h-11 px-4 py-3 gap-4 z-10 border-[0.5px] border-zinc-50/5 bg-zinc-800/10 bg-opacity-75 backdrop-blur-xl rounded-full shadow-xl flex items-center">
       <div className="text-center text-white/70 text-sm sm:text-base whitespace-nowrap">
         5 components
       </div>
