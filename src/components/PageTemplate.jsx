@@ -3,12 +3,12 @@ import Experiments from "./Experiments";
 
 const PageTemplate = () => {
   return (
-    <div className="relative min-h-screen w-full bg-zinc-900">
+    <div className="relative w-full min-h-screen bg-zinc-950">
       {/* Background texture */}
       <div className="absolute inset-0 w-full h-full bg-[url('/src/assets/paper_texture.jpg')] bg-cover bg-center mix-blend-multiply opacity-80 z-[-1]"></div>
 
       {/* Content wrapper with width control */}
-      <div className="w-full max-w-[85%] mx-auto px-4 py-5 sm:px-4 sm:py-5 lg:px-14 xl:px-36 2xl:px-96 lg:py-12 flex flex-col gap-8 sm:gap-8 xl:gap-24">
+      <div className="flex flex-col items-center justify-center w-full max-w-[1400px] gap-12 p-5 pt-10 md:gap-24 md:p-5 md:pt-12 mx-auto">
         {/* Header Component */}
         <Header />
 
@@ -25,8 +25,8 @@ const PageTemplate = () => {
             x2="1183.5"
             y2="0.5"
             stroke="#A1A1AA"
-            stroke-linecap="round"
-            stroke-dasharray="2 4 6 8"
+            strokeLinecap="round"
+            strokeDasharray="2 4 6 8"
           />
         </svg>
 

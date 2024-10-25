@@ -6,7 +6,7 @@ const Experiments = () => {
         <h2 className="text-zinc-50 font-medium text-sm sm:text-base leading-normal font-inter">
           Physical World-Inspired Button
         </h2>
-        <p className="text-zinc-400 font-normal text-sm sm:text-base leading-5 sm:leading-6 font-inter mt-2">
+        <p className="text-zinc-400 font-normal text-sm sm:text-base leading-5 sm:leading-6 font-inter mt-3">
           This button is designed to mimic the look and feel of real-world
           objects. With subtle shadows, depth, and tactile feedback, they create
           an intuitive, familiar experience. The goal is to make digital
