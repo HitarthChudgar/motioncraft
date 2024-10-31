@@ -3,7 +3,7 @@ import Experiments from "./Experiments";
 
 const PageTemplate = () => {
   return (
-    <div className="relative w-full min-h-screen bg-zinc-950">
+    <div className="relative w-full min-h-screen bg-zinc-900">
       {/* Background texture */}
       <div className="absolute inset-0 w-full h-full bg-[url('/src/assets/paper_texture.jpg')] bg-cover bg-center mix-blend-multiply opacity-80 z-[-1]"></div>
 
@@ -31,9 +31,6 @@ const PageTemplate = () => {
         </svg>
 
         {/* Experiments Component */}
-        <Experiments />
-        <Experiments />
-        <Experiments />
         <Experiments />
       </div>
     </div>

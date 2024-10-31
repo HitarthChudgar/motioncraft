@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="flex justify-between items-top w-full h-auto gap-6">
       <img
-        className="w-[45px] h-[45px] sm:w-[80px] sm:h-[80px]"
+        className="hover:animate-spin w-[45px] h-[45px] sm:w-[80px] sm:h-[80px]"
         src={logo}
         alt="MotionCraft Logo"
       />
