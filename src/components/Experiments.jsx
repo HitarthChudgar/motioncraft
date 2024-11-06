@@ -16,13 +16,13 @@ const Experiments = () => {
 
         {/* Tags section */}
         <div className="flex flex-wrap gap-2 mt-2">
-          <span className="px-2 py-1 bg-zinc-800 border border-zinc-700 text-zinc-50 text-sm rounded-md">
+          <span className="px-2 py-1 bg-zinc-800  text-zinc-50 text-sm rounded-md">
             react
           </span>
-          <span className="px-2 py-1 bg-zinc-800 border border-zinc-700 text-zinc-50 text-sm rounded-md">
+          <span className="px-2 py-1 bg-zinc-800 text-zinc-50 text-sm rounded-md">
             tailwind
           </span>
-          <span className="px-2 py-1 bg-zinc-800 border border-zinc-700 text-zinc-50 text-sm rounded-md">
+          <span className="px-2 py-1 bg-zinc-800 text-zinc-50 text-sm rounded-md">
             framer
           </span>
         </div>
