@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "pt-serif": ['"PT Serif"', "serif"], // this is good for PT Serif
+        fraunces: ["Fraunces", "serif"],
       },
       keyframes: {
         shimmer: {
