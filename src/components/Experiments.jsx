@@ -23,7 +23,7 @@ const experimentConfigs = [
 
 const Experiments = () => {
   return (
-    <div className="w-full flex flex-col gap-8">
+    <div className="w-full flex flex-col gap-16">
       {experimentConfigs.map((experiment, index) => (
         <div
           key={index}
