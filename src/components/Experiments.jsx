@@ -1,4 +1,5 @@
 import Tabs from "./experiment components/Tabs";
+import HeaderDropdown from "./experiment components/HeaderDropdown";
 import CommandBar from "./CommandBar"; // Import the CommandBar component
 
 // Experiment configurations
@@ -9,6 +10,13 @@ const experimentConfigs = [
       "A responsive tab system with smooth highlight effects, guiding focus through subtle hover and active tab distinctions for seamless navigation.",
     tags: ["react", "tailwind", "framer"],
     component: Tabs,
+  },
+  {
+    title: "Header Dropdown",
+    subtitle:
+      "An intuitive navigation pattern that reinforces user context through subtle preview animations, helping users understand their location and potential actions before committing to them.",
+    tags: ["react", "tailwind", "framer"],
+    component: HeaderDropdown,
   },
   // Add other configurations if needed
 ];
