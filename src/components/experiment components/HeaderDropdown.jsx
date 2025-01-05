@@ -83,7 +83,7 @@ const HeaderDropdown = () => {
   };
 
   return (
-    <div className="w-56 bg-zinc-800 rounded-lg overflow-hidden border border-white/10 shadow-[0px_8px_16px_0px_#00000052,0px_4px_8px_0px_#00000052,0px_0px_0px_1px_#FFFFFF1A]">
+    <div className="w-56 bg-zinc-800 rounded-lg overflow-hidden border border-white/10 shadow-[0px_4px_8px_0px_#00000032,0px_0px_0px_1px_#FFFFFF1A]">
       {/* Header */}
       <div className="p-3 h-[72px] overflow-hidden relative">
         <div className="space-y-2">
