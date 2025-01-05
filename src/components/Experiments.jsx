@@ -1,5 +1,6 @@
 import Tabs from "./experiment components/Tabs";
 import HeaderDropdown from "./experiment components/HeaderDropdown";
+import Searching from "./experiment components/Searching";
 import CommandBar from "./CommandBar"; // Import the CommandBar component
 
 // Experiment configurations
@@ -17,6 +18,13 @@ const experimentConfigs = [
       "An intuitive navigation pattern that reinforces user context through subtle preview animations, helping users understand their location and potential actions before committing to them.",
     tags: ["react", "tailwind", "framer"],
     component: HeaderDropdown,
+  },
+  {
+    title: "Search",
+    subtitle:
+      "A sophisticated search interface with real-time feedback through expressive loading states, and a seamless shimmer effect that guides users through the steps in the search process.",
+    tags: ["react", "tailwind", "framer"],
+    component: Searching,
   },
   // Add other configurations if needed
 ];
