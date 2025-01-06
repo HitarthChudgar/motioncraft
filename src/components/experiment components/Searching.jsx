@@ -45,23 +45,23 @@ const Searching = () => {
       <div className="relative w-full">
         {/* Shadow Layers */}
         <div
-          className="absolute inset-0 rounded-lg"
+          className="absolute inset-0 rounded-lg pointer-events-none"
           style={{ boxShadow: "0px 2px 2px 0px #0000003D" }}
         />
         <div
-          className="absolute inset-0 rounded-lg"
+          className="absolute inset-0 rounded-lg pointer-events-none"
           style={{ boxShadow: "0px 0px 1px 1.5px #0000003D" }}
         />
         <div
-          className="absolute inset-0 rounded-lg"
+          className="absolute inset-0 rounded-lg pointer-events-none"
           style={{ boxShadow: "0px 0px 0px 1px #27272A" }}
         />
         <div
-          className="absolute inset-0 rounded-lg"
+          className="absolute inset-0 rounded-lg pointer-events-none"
           style={{ boxShadow: "0px 0px 0px 1px #FFFFFF0F" }}
         />
         <div
-          className="absolute inset-0 rounded-lg"
+          className="absolute inset-0 rounded-lg pointer-events-none"
           style={{ boxShadow: "0px -1px 0px 0px #FFFFFF0F" }}
         />
 
@@ -75,18 +75,18 @@ const Searching = () => {
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
           onKeyPress={handleKeyPress}
-          placeholder="What's the best road to run near me?"
+          placeholder="What's the best road to run?"
           className="
-            w-full
-            py-2
-            pl-8
-            text-base
-            placeholder-[#71717A]
-            bg-[#212124]
-            text-white
-            rounded-lg
-            outline-none
-          "
+      w-full
+      py-2
+      pl-8
+      text-base
+      placeholder-[#71717A]
+      bg-[#212124]
+      text-white
+      rounded-lg
+      outline-none
+    "
         />
       </div>
 
