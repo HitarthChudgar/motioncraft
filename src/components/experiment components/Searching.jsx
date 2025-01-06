@@ -39,9 +39,10 @@ const Searching = () => {
   };
 
   return (
-    <div className="flex flex-col items-start gap-2">
+    // The wrapper div can go full-width or max 380px
+    <div className="flex flex-col items-start gap-2 w-full max-w-[380px]">
       {/* Search Input */}
-      <div className="relative inline-block">
+      <div className="relative w-full">
         {/* Shadow Layers */}
         <div
           className="absolute inset-0 rounded-lg"
@@ -64,6 +65,7 @@ const Searching = () => {
           style={{ boxShadow: "0px -1px 0px 0px #FFFFFF0F" }}
         />
 
+        {/* Search Icon */}
         <div className="absolute left-2 top-1/2 -translate-y-1/2 pointer-events-none z-10">
           <Search className="w-5 h-5 text-[#71717A]" strokeWidth={1.5} />
         </div>
@@ -74,28 +76,23 @@ const Searching = () => {
           onChange={(e) => setSearchText(e.target.value)}
           onKeyPress={handleKeyPress}
           placeholder="What's the best road to run near me?"
-          style={{
-            height: "auto",
-            width: "fit-content",
-            minWidth: "380px",
-            padding: "8px 32px",
-            fontSize: "16px",
-            backgroundColor: "#212124",
-            color: "#fff",
-            borderRadius: "8px",
-            outline: "none",
-            position: "relative",
-          }}
-          className="placeholder-[#71717A]"
+          className="
+            w-full
+            py-2
+            pl-8
+            text-base
+            placeholder-[#71717A]
+            bg-[#212124]
+            text-white
+            rounded-lg
+            outline-none
+          "
         />
       </div>
 
       {/* Loading States */}
       {isLoading && (
-        <div
-          className="relative h-6 overflow-hidden"
-          style={{ width: "fit-content", minWidth: "380px" }}
-        >
+        <div className="relative w-full h-6 overflow-hidden">
           <div
             key={currentIndex}
             className="shimmer absolute w-full text-sm font-medium"
