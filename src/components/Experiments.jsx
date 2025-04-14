@@ -1,7 +1,8 @@
 import Tabs from "./experiment components/Tabs";
 import HeaderDropdown from "./experiment components/HeaderDropdown";
 import Searching from "./experiment components/Searching";
-import CommandBar from "./CommandBar"; // Import the CommandBar component
+import DefaultDemo from "./experiment components/DefaultDemo";
+import CommandBar from "./CommandBar";
 
 // Experiment configurations
 const experimentConfigs = [
@@ -25,6 +26,13 @@ const experimentConfigs = [
       "A sophisticated search interface with real-time feedback through expressive loading states, and a seamless shimmer effect that guides users through the steps in the search process.",
     tags: ["react", "tailwind", "framer"],
     component: Searching,
+  },
+  {
+    title: "Expandable Tabs",
+    subtitle:
+      "An animated tab interface that prioritizes clarity through progressive disclosure. Titles expand only on selection, reducing visual noise while reinforcing focus — blending minimal UI with expressive motion.",
+    tags: ["react", "tailwind", "framer"],
+    component: DefaultDemo,
   },
   // Add other configurations if needed
 ];
