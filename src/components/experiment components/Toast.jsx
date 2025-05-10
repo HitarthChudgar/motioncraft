@@ -22,7 +22,6 @@ export function Toast({ className }) {
     initial: {
       opacity: 1,
       y: 0,
-      width: "auto",
       transition: { duration: 0.3, ease: "easeInOut" },
     },
     exit: {
@@ -78,11 +77,16 @@ export function Toast({ className }) {
 
   return (
     <motion.div
+      layout
       variants={variants}
       initial="initial"
       animate="initial"
       exit="exit"
-      transition={{ ease: "easeInOut", duration: 0.3 }}
+      transition={{
+        ease: "easeInOut",
+        duration: 0.3,
+        layout: { duration: 0.3 },
+      }}
       className={cn(
         "flex items-center gap-4 px-3 py-3 rounded-xl border border-white/10 bg-zinc-800 h-[48px]",
         "shadow-[0px_2px_4px_0px_rgba(0,0,0,0.4)]",
