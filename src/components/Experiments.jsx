@@ -3,6 +3,7 @@ import HeaderDropdown from "./experiment components/HeaderDropdown";
 import Searching from "./experiment components/Searching";
 import DefaultDemo from "./experiment components/DefaultDemo";
 import CommandBar from "./CommandBar";
+import Toast from "./experiment components/Toast";
 
 // Experiment configurations
 const experimentConfigs = [
@@ -34,7 +35,13 @@ const experimentConfigs = [
     tags: ["react", "tailwind", "framer"],
     component: DefaultDemo,
   },
-  // Add other configurations if needed
+  {
+    title: "Toast",
+    subtitle:
+      "A state-aware notification system that elegantly transitions between unsaved, loading, and success states. Combines subtle animations with clear visual feedback to create a seamless save interaction pattern.",
+    tags: ["react", "tailwind", "framer"],
+    component: Toast,
+  },
 ];
 
 const Experiments = () => {
