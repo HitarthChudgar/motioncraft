@@ -11,24 +11,24 @@ export function TransitionPanelCard({ className }) {
 
   const FEATURES = [
     {
-      title: "Brand",
+      title: "Design Philosophy",
       description:
-        "Develop a distinctive brand identity with tailored logos and guidelines to ensure consistent messaging across all platforms.",
+        "Great design lives at the intersection of beauty and purpose. We craft experiences that don't just look beautiful, but guide users naturally through their journey, making complex actions feel effortless.",
     },
     {
-      title: "Product",
+      title: "Engineering Excellence",
       description:
-        "Design and refine products that excel in user experience, meeting needs effectively and creating memorable interactions.",
+        "Code is a craft. Every line serves a purpose, every function tells a story. We build systems that are not just functional, but maintainable, scalable, and elegant in their simplicity.",
     },
     {
-      title: "Website",
+      title: "User-Centered Thinking",
       description:
-        "Create impactful websites that combine beautiful aesthetics with functional design, ensuring a superior online presence.",
+        "Technology should adapt to humans, not the other way around. We create interfaces that feel natural and intuitive, understanding that the best design is often the one users don't even notice.",
     },
     {
-      title: "Design System",
+      title: "Thoughtful Innovation",
       description:
-        "Develop a design system that unifies your brand identity, ensuring consistency across all platforms and products.",
+        "Innovation isn't about using the latest technology – it's about solving real problems in meaningful ways. We focus on creating lasting solutions that enhance the human experience.",
     },
   ];
 
@@ -60,7 +60,7 @@ export function TransitionPanelCard({ className }) {
         className
       )}
     >
-      <div className="relative min-h-[160px]">
+      <div className="relative">
         <AnimatePresence initial={false} custom={direction} mode="wait">
           <motion.div
             key={activeIndex}
@@ -70,10 +70,10 @@ export function TransitionPanelCard({ className }) {
             animate="center"
             exit="exit"
             transition={{
-              x: { type: "spring", stiffness: 300, damping: 30 },
-              opacity: { duration: 0.2 },
+              x: { type: "spring", stiffness: 400, damping: 35 },
+              opacity: { duration: 0.15 },
             }}
-            className="absolute inset-0 p-4"
+            className="p-4"
           >
             <h3 className="mb-2 text-lg font-medium text-zinc-200">
               {FEATURES[activeIndex].title}
