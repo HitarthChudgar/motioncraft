@@ -4,7 +4,7 @@ import Searching from "./experiment components/Searching";
 import DefaultDemo from "./experiment components/DefaultDemo";
 import CommandBar from "./CommandBar";
 import Toast from "./experiment components/Toast";
-
+import TransitionPanelCard from "./experiment components/TransitionPanelCard";
 // Experiment configurations
 const experimentConfigs = [
   {
@@ -42,8 +42,14 @@ const experimentConfigs = [
     tags: ["react", "tailwind", "framer"],
     component: Toast,
   },
+  {
+    title: "Transition Panel Card",
+    subtitle:
+      "Enhances information comprehension through fluid state transitions. The seamless animations help users mentally map different states of content, creating an intuitive and engaging interaction model that reduces cognitive load.",
+    tags: ["react", "tailwind", "framer"],
+    component: TransitionPanelCard,
+  },
 ];
-
 const Experiments = () => {
   return (
     <div className="w-full flex flex-col gap-16">
