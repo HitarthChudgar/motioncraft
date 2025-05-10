@@ -5,6 +5,7 @@ import DefaultDemo from "./experiment components/DefaultDemo";
 import CommandBar from "./CommandBar";
 import Toast from "./experiment components/Toast";
 import TransitionPanelCard from "./experiment components/TransitionPanelCard";
+import HoldButton from "./experiment components/HoldButton";
 // Experiment configurations
 const experimentConfigs = [
   {
@@ -48,6 +49,13 @@ const experimentConfigs = [
       "Enhances information comprehension through fluid state transitions. The seamless animations help users mentally map different states of content, creating an intuitive and engaging interaction model that reduces cognitive load.",
     tags: ["react", "tailwind", "framer"],
     component: TransitionPanelCard,
+  },
+  {
+    title: "Hold To Delete",
+    subtitle:
+      "A progressive confirmation pattern that requires sustained interaction to complete destructive actions. Visual feedback through a dynamic progress indicator and state changes creates a deliberate, safety-focused deletion experience.",
+    tags: ["react", "tailwind", "framer"],
+    component: HoldButton,
   },
 ];
 const Experiments = () => {
