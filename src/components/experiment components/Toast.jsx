@@ -94,19 +94,19 @@ export function Toast({ className }) {
       )}
     >
       {getIcon()}
-      <span className="text-base text-zinc-300">{getText()}</span>
+      <span className="text-sm text-zinc-300">{getText()}</span>
 
       {state === "initial" && (
         <div className="flex items-center gap-4 ml-3">
           <button
             onClick={() => setState("initial")}
-            className="text-base text-zinc-400 hover:text-zinc-300 transition-colors"
+            className="text-sm text-zinc-400 hover:text-zinc-300 transition-colors"
           >
             Reset
           </button>
           <button
             onClick={handleSave}
-            className="px-4 py-0 text-base font-medium leading-[32px] rounded-lg text-zinc-300 bg-purple-600 h-[32px] transition-all active:translate-y-[1px] active:shadow-[inset_0px_1px_1px_rgba(0,0,0,0.4)] hover:bg-purple-500 shadow-[0px_1px_2px_rgba(0,0,0,0.5),inset_0px_1px_0px_rgba(255,255,255,0.15)]"
+            className="px-4 py-0 text-sm font-medium leading-[32px] rounded-lg text-zinc-300 bg-purple-600 h-[32px] transition-all active:translate-y-[1px] active:shadow-[inset_0px_1px_1px_rgba(0,0,0,0.4)] hover:bg-purple-500 shadow-[0px_1px_2px_rgba(0,0,0,0.5),inset_0px_1px_0px_rgba(255,255,255,0.15)]"
           >
             Save
           </button>
