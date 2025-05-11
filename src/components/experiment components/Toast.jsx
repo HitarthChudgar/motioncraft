@@ -94,10 +94,12 @@ export function Toast({ className }) {
       )}
     >
       {getIcon()}
-      <span className="text-sm text-zinc-300">{getText()}</span>
+      <span className="text-sm text-zinc-300 whitespace-nowrap">
+        {getText()}
+      </span>
 
       {state === "initial" && (
-        <div className="flex items-center gap-4 ml-3">
+        <div className="flex items-center gap-4 ml-auto">
           <button
             onClick={() => setState("initial")}
             className="text-sm text-zinc-400 hover:text-zinc-300 transition-colors"
